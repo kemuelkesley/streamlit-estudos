@@ -1,0 +1,38 @@
+p {
+    font-size: 40px;
+}
+
+
+.stButton > button {
+    color: #ffffff;
+    background-color: #c60c35;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.stButton {
+    color: #ffffff;
+    background-color: #920000;
+    border-color: #920000;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.stMarkdown {
+    text-align: center;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+.block-container css-12oz5g7 egzxvld2 {
+    background-color: #392c2c;
+}
+
+/* Esconder a mensagem de rodapé */
+footer {
+    visibility: hidden;
+}

@@ -10,7 +10,7 @@ def create():
     st.title("Adicionar Cliente")
 
     # Dados de entradas do formulario
-    with st.form(key="include_cliente"):
+    with st.form(key="include_cliente", clear_on_submit=True):
         input_name = st.text_input(label="Insira seu Nome", placeholder="Nome Completo ")
         input_age = st.number_input(label="Insira sua idade", format="%d", step=1)
         input_occupation = st.selectbox("Selecione sua Profissão", options=["Selecione" ,"Desenvolvedor", "Músico", "Designer", "Professor"])

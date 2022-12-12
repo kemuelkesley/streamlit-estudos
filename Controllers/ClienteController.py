@@ -11,8 +11,8 @@ def incluir(cliente):
 
 
 def excluir(id):
-    count = db.cursor.execute("""
-    DELETE FROM CLIENTEs WHERE ID = ? """,
+    db.cursor.execute("""
+    DELETE FROM CLIENTES WHERE ID = ? """,
     id).rowcount
     db.cnxn.commit()
     # print(f'{id}: Cliente Deletado com Sucesso: {str(count)}')

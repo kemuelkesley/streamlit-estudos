@@ -21,5 +21,4 @@ def create():
     if input_button_submit:    
         ClienteController.incluir(cliente.Cliente(0, input_name, input_age, input_occupation)) 
 
-        # Mensagem que tudo ocorreu bem.
-        st.success("Cliente incluido com Sucesso.")
+      
